@@ -1,0 +1,13 @@
+name: dl-dev-env
+dependencies:
+- jupyter
+- matplotlib
+- pandas
+- numpy
+- pip:
+  - requests
+  - mxnet
+  - gluonbook
+  - opencv-contrib-python
+  - tensorflow-gpu
+  - keras

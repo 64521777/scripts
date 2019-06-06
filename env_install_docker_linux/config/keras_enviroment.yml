@@ -1,0 +1,14 @@
+name: ml-dev-env
+dependencies:
+- pip:
+  - requests
+  - flask
+  - dlib
+  - pillow
+  - opencv-contrib-python
+  - numpy
+  - pandas
+  - sklearn
+  - tensorflow-gpu
+  - keras
+  - matplotlib

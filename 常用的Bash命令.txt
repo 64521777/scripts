@@ -1,0 +1,10 @@
+1. 删除临时文件和隐藏文件
+find . -name "*~" -exec rm {} \;
+2. 执行 dos2unix 的转换
+visual stodio of windows should use code with \r\n, else compile will be strange
+2. 查找目录中所有编码格式为 GB2312 或 UTF-8 格式的文件
+find . -type f -exec bash -c "enca -L zh_CN {} | grep GB2312 > /dev/null && echo {}" \;
+find . -type f -exec bash -c "enca -L zh_CN {} | grep UTF-8 > /dev/null && echo {}" \;
+3. 查找目录中所有编码格式为 GB2312 的文件并将它转换为 UTF-8
+find . -type f -exec bash -c "enca -L zh_CN {} | grep GB2312 > /dev/null && enconv -L zh_CN -x UTF-8 {}" \;
+

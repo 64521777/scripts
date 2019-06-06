@@ -1,0 +1,10 @@
+name: gluon
+dependencies:
+- python
+- jupyter
+- matplotlib
+- pandas
+- pip:
+  - requests
+  - mxnet-cu100
+  - gluonbook
