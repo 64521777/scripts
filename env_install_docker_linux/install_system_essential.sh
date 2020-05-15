@@ -5,6 +5,7 @@
 # 安装必要的软件
 apt-get update
 apt-get -yqq install vim wget unzip lrzsz pkg-config build-essential
+apt-get -yqq install lsof strace
 # 安装和配置 ssh 服务
 apt-get install -yqq sudo openssh-server
 # 这样我们后续就可以通过ssh -p 1234 username@hostip访问容器了。
