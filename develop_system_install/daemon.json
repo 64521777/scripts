@@ -1,0 +1,7 @@
+{
+"insecure-registries":["index.docker.io","registry-1.docker.io"],
+"registry-mirrors":["https://docker.mirrors.ustc.edu.cn",
+                       "https://hub-mirror.c.163.com",
+                       "https://registry.docker-cn.com",
+                       "https://hccwwfjl.mirror.aliyuncs.com"]
+}

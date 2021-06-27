@@ -1,8 +1,5 @@
-envir
-file_process 	文件和目录处理脚本
-
-
 ├─bat_scripts			windows 批处理脚本 *.bat
+├─develop_system_install	研发环境安装脚本，gitlab, zentao, etc
 ├─enviroment_config		Linux系统配置与软件安装脚本
 │  ├─config					使用的配置文件
 │  └─docker_helper			安装和配置 docker 的脚本
